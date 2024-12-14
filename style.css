@@ -1,0 +1,171 @@
+*{
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    font-size: 13px;
+    background-color: hsl(210, 46%, 95%);
+
+}
+
+.cards{
+    margin: 40px 0;
+    display: grid;
+    gap: 30px;
+    
+}
+
+.cards .card {
+    padding: 30px 30px;
+    border-radius: 10px;
+    color: hsl(0, 0.00%, 100.00%);
+}
+
+
+.cards .card .top{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.cards .card .top span{
+    margin: 0;
+}
+
+.cards .card .top .top-text{
+    align-items: center;
+    margin-left: 15px;
+}
+
+.cards .card .top-text .p1, h1{
+    margin: 0;
+}
+
+.cards .card img{
+    border-radius: 50%;
+    border: 1px solid hsl(0, 0%, 81%);
+    width: 30px;
+}
+
+.cards .card .top h1{
+    font-size: 15px;
+    margin-bottom: 2px;
+    font-weight: 400;
+}
+
+.cards .card .top .p1{
+    opacity: 50%;
+    font-size: 13px;
+}
+
+.cards .card span{
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23x;
+}
+
+.cards .card .p2{
+    line-height: 20px;
+    font-weight: 200;
+    opacity: 70%;
+    margin: 20px 0 0 0;
+    
+}
+
+.cards .card1{
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: 87% 0;
+}
+
+.cards .card2{
+    background-color: hsl(217, 19%, 35%);
+}
+
+.cards .card3{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(217, 19%, 35%)
+}
+
+.cards .card3 .top-text h1{
+    font-weight: 500;
+}
+
+.cards .card3 .p1{
+    font-weight: 400;
+}
+
+.cards .card3 .p2{
+    font-weight: 500;
+}
+
+.cards .card4{
+    background-color: hsl(219, 29%, 14%);
+}
+
+.cards .card5{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(217, 19%, 35%);
+}
+
+.cards .card5 .top-text h1{
+    font-weight: 500;
+}
+.cards .card5 .p1{
+    font-weight: 500;
+}
+
+.cards .card5 .p2{
+    font-weight: 500;
+}
+
+.attribution span{ 
+    font-size: 11px; 
+    text-align: center; 
+    
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+@media (min-width: 768px) {
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1000px) {
+    .cards{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+    .cards{
+        grid-template-columns: repeat(4, 1fr);
+        margin: 100px;
+    }
+
+    .cards .card1{
+        grid-column: 1/ span 2;
+    }
+
+    .cards .card4{
+        grid-column: span 2;
+    }
+
+    .cards .card5{
+        grid-column: 4;
+        grid-row: 1/span 2;
+    }
+}
