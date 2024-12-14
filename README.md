@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/Uyoyo-W/four-card-feature-section-master
-- Live Site URL: https://four-card-feature-task-solution.netlify.app/
+- Solution URL: https://github.com/Uyoyo-W/testimonials-grid-section
+- Live Site URL: https://testimonials-grid-task-solution.netlify.app/
 
 ## My process
 
@@ -48,9 +48,6 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-### What I learnt
-
-- I fell off the 30-day challenge but I'm picking up from where I stopped because I'm learning that consistency is about sticking to making progress and achieving the set goal regardless of how many times or how long I've been inconsistent for. So this is my submission for Day 6 of the 30 Days of Consistency challenge
 
 
 ## Author
